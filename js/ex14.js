@@ -40,7 +40,7 @@ switch (mes) {
     case '12':
         console.log('Es Diciembre');
         break;
-
     default:
+        console.log('No es ningún mes.');
         break;
 }

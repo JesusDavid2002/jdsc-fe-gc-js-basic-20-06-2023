@@ -4,11 +4,13 @@
 
 let numero = prompt('Ingresa un número: ');
 
+let suma = 0;
 let i = 0;
 
 while (i <= numero) {
     if(i % 2 != 0){
-        console.log(i);
+        suma += i;
     }    
-    i++
+    i++ 
 }
+console.log(`La suma de todos los impares hasta ${numero} es: ${suma}`);

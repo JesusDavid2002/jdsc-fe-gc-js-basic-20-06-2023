@@ -3,9 +3,7 @@
 let numero = prompt('Ingrese un número: ');
 
 if(numero % 2 === 0){
-    alert('Es par')
-
+    alert('Es par');
 } else{
-    alert('Es impar')
-
+    alert('Es impar');
 }

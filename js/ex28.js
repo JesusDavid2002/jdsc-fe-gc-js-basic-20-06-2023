@@ -3,9 +3,18 @@
 // contador de divisores.
 
 let numero = prompt('Ingresa un número:');
+let contadorPrimos = 0;
 
-for (let i = 0; i <= numero; i++) {
-    if(numero % i == 0){
-        console.log(i);
-    }  
+
+for (let i = 2; i < numero; i++) {
+    if(numero % i === 0){
+        contadorPrimos++;
+    }   
 }
+
+if(contadorPrimos === 0){  
+    console.log(`${numero} es primo`);
+}else{
+    console.log(`${numero} no es primo`);
+}
+

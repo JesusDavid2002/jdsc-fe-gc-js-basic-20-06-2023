@@ -7,7 +7,7 @@ let i = 0;
 
 while (numero > 0) {
     i += numero % 10;
-    numero = Math.floor(numero/10)
+    numero = Math.floor(numero / 10);
     
 }
 console.log(i);

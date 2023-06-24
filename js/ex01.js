@@ -1,7 +1,7 @@
 // 1. Declarar dos variables, "a" y "b", y asignarles valores numéricos. 
 // Luego, imprimir en la consola la suma de ambas variables.
 
-let A = 5
-let B = 9
+let A = 5;
+let B = 9;
 
 console.log(A + B);
